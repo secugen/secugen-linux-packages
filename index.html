@@ -80,6 +80,16 @@
       color: var(--muted);
     }
 
+    ul {
+      margin: 10px 0 0;
+      padding-left: 22px;
+      color: var(--muted);
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
     section {
       background: var(--panel);
       border: 1px solid var(--border);
@@ -251,6 +261,20 @@ sudo apt install secugen-connect</code></pre>
         </div>
         <pre><code id="update-commands">sudo apt update
 sudo apt install secugen-connect</code></pre>
+      </div>
+
+      <div class="command-block">
+        <div class="command-header">
+          <span class="command-title">Prerequisites</span>
+        </div>
+        <ul>
+          <li>Use Debian or Ubuntu on <code>amd64</code>.</li>
+          <li><code>curl</code> is needed to download the setup package.</li>
+          <li><code>ca-certificates</code> is installed by the setup package if needed.</li>
+          <li><code>libusb-1.0-0</code> is installed automatically with <code>secugen-connect</code>.</li>
+          <li>The SecuGen Linux runtime SDK libraries are bundled in <code>secugen-connect</code> under <code>/opt/secugen/connect/vendor/secugen/linux/lib</code>.</li>
+          <li>The package installs udev rules and the system service. Reconnect the reader or reboot if a USB reader was already attached during installation.</li>
+        </ul>
       </div>
     </section>
 
