@@ -226,7 +226,7 @@
         <div class="mark" aria-hidden="true">SG</div>
         <div>
           <h1>SecuGen Linux Packages</h1>
-          <p>Public APT repository for SecuGen Linux package distribution.</p>
+          <p>Public APT and RPM repositories for SecuGen Linux package distribution.</p>
         </div>
       </div>
     </header>
@@ -277,6 +277,51 @@ sudo apt install secugen-connect</code></pre>
       </div>
     </section>
 
+    <section aria-labelledby="install-fedora">
+      <h2 id="install-fedora">Install On Fedora</h2>
+      <div class="command-block">
+        <div class="command-header">
+          <span class="command-title">First-time setup</span>
+          <button class="copy-button" type="button" data-copy-target="fedora-install-commands" aria-label="Copy Fedora first-time setup commands" title="Copy">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="9" y="9" width="10" height="10" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" fill="none" stroke="currentColor" stroke-width="2"></path>
+            </svg>
+          </button>
+        </div>
+        <pre><code id="fedora-install-commands">sudo curl -fsSL -o /etc/yum.repos.d/secugen.repo https://secugen.github.io/secugen-linux-packages/secugen.repo
+sudo dnf makecache
+sudo dnf install secugen-connect</code></pre>
+      </div>
+
+      <div class="command-block">
+        <div class="command-header">
+          <span class="command-title">Update after setup</span>
+          <button class="copy-button" type="button" data-copy-target="fedora-update-commands" aria-label="Copy Fedora update commands" title="Copy">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="9" y="9" width="10" height="10" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" fill="none" stroke="currentColor" stroke-width="2"></path>
+            </svg>
+          </button>
+        </div>
+        <pre><code id="fedora-update-commands">sudo dnf makecache
+sudo dnf upgrade secugen-connect</code></pre>
+      </div>
+
+      <div class="command-block">
+        <div class="command-header">
+          <span class="command-title">Prerequisites</span>
+        </div>
+        <ul>
+          <li>Use Fedora on <code>x86_64</code>.</li>
+          <li><code>curl</code> is needed to install the repo file.</li>
+          <li><code>libusb1</code> is installed automatically with <code>secugen-connect</code>.</li>
+          <li>The package installs udev rules and the system service. Reconnect the reader or reboot if a USB reader was already attached during installation.</li>
+          <li>No separate Linux device-driver package is required.</li>
+        </ul>
+      </div>
+    </section>
+
     <section aria-labelledby="current-package">
       <h2 id="current-package">Current Package</h2>
       <dl>
@@ -285,11 +330,13 @@ sudo apt install secugen-connect</code></pre>
         <dt>Version</dt>
         <dd><code>0.4.307</code></dd>
         <dt>Architecture</dt>
-        <dd><code>amd64</code></dd>
+        <dd><code>amd64 / x86_64</code></dd>
         <dt>Channel</dt>
-        <dd><code>stable main</code></dd>
-        <dt>Repository</dt>
+        <dd><code>stable main / stable</code></dd>
+        <dt>APT Repository</dt>
         <dd><code>https://secugen.github.io/secugen-linux-packages/apt</code></dd>
+        <dt>RPM Repository</dt>
+        <dd><code>https://secugen.github.io/secugen-linux-packages/rpm/stable/x86_64</code></dd>
       </dl>
       <div class="links" aria-label="Repository links">
         <a href="secugen-linux-repo.deb">Repo Setup DEB</a>
@@ -298,6 +345,9 @@ sudo apt install secugen-connect</code></pre>
         <a href="apt/dists/stable/InRelease">InRelease</a>
         <a href="apt/dists/stable/main/binary-amd64/Packages">Packages</a>
         <a href="apt/pool/main/s/secugen-connect/secugen-connect_0.4.307_amd64.deb">Download DEB</a>
+        <a href="secugen.repo">Fedora Repo File</a>
+        <a href="rpm/stable/x86_64/repodata/repomd.xml">RPM Repomd</a>
+        <a href="rpm/stable/x86_64/secugen-connect-0.4.307.x86_64.rpm">Download RPM</a>
       </div>
     </section>
 

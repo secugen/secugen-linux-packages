@@ -1,6 +1,6 @@
 # Signing
 
-APT trust is provided by signing the `Release` metadata, not by individually signing `.deb` files.
+APT trust is provided by signing the `Release` metadata, not by individually signing `.deb` files. RPM trust is provided by signing individual `.rpm` files and signing the YUM/DNF `repomd.xml` metadata.
 
 Tracked public key:
 
@@ -18,6 +18,14 @@ Signed metadata for the current stable APT repo:
 apt/dists/stable/Release
 apt/dists/stable/Release.gpg
 apt/dists/stable/InRelease
+```
+
+Signed files for the current stable RPM repo:
+
+```text
+rpm/stable/x86_64/secugen-connect-0.4.307.x86_64.rpm
+rpm/stable/x86_64/repodata/repomd.xml
+rpm/stable/x86_64/repodata/repomd.xml.asc
 ```
 
 The secret key stays in an operator-managed GPG keyring or company-approved signing vault. Do not commit exported secret keys, revocation certificates, keybox files, passphrases, private backups, local key paths, or signing-host inventory to this repository.
