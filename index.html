@@ -14,8 +14,8 @@
       --border: #d9e1ea;
       --accent: #006f8f;
       --accent-dark: #084f64;
-      --code-bg: #101820;
-      --code-ink: #f5f8fb;
+      --code-bg: #fbfcfe;
+      --code-ink: #18212f;
     }
 
     * {
@@ -105,13 +105,58 @@
       overflow-wrap: anywhere;
     }
 
+    .command-block {
+      margin-top: 14px;
+    }
+
+    .command-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .command-title {
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .copy-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--accent-dark);
+      cursor: pointer;
+    }
+
+    .copy-button:hover {
+      border-color: var(--accent);
+    }
+
+    .copy-button svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .copy-button[data-copied="true"] {
+      color: #1f7a45;
+      border-color: #8ec9a8;
+    }
+
     pre {
-      margin: 12px 0 0;
+      margin: 0;
       padding: 16px;
       overflow-x: auto;
       border-radius: 8px;
       background: var(--code-bg);
       color: var(--code-ink);
+      border: 1px solid var(--border);
     }
 
     code {
@@ -178,10 +223,35 @@
 
     <section aria-labelledby="install">
       <h2 id="install">Install On Debian Or Ubuntu</h2>
-      <pre><code>curl -LO https://secugen.github.io/secugen-linux-packages/secugen-linux-repo.deb
+      <div class="command-block">
+        <div class="command-header">
+          <span class="command-title">First-time setup</span>
+          <button class="copy-button" type="button" data-copy-target="install-commands" aria-label="Copy first-time setup commands" title="Copy">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="9" y="9" width="10" height="10" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" fill="none" stroke="currentColor" stroke-width="2"></path>
+            </svg>
+          </button>
+        </div>
+        <pre><code id="install-commands">curl -LO https://secugen.github.io/secugen-linux-packages/secugen-linux-repo.deb
 sudo apt install ./secugen-linux-repo.deb
 sudo apt update
 sudo apt install secugen-connect</code></pre>
+      </div>
+
+      <div class="command-block">
+        <div class="command-header">
+          <span class="command-title">Update after setup</span>
+          <button class="copy-button" type="button" data-copy-target="update-commands" aria-label="Copy update commands" title="Copy">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="9" y="9" width="10" height="10" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" fill="none" stroke="currentColor" stroke-width="2"></path>
+            </svg>
+          </button>
+        </div>
+        <pre><code id="update-commands">sudo apt update
+sudo apt install secugen-connect</code></pre>
+      </div>
     </section>
 
     <section aria-labelledby="current-package">
@@ -220,5 +290,23 @@ sudo apt install secugen-connect</code></pre>
       </dl>
     </section>
   </main>
+  <script>
+    document.querySelectorAll("[data-copy-target]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var target = document.getElementById(button.getAttribute("data-copy-target"));
+        if (!target || !navigator.clipboard) {
+          return;
+        }
+        navigator.clipboard.writeText(target.textContent.trim()).then(function () {
+          button.setAttribute("data-copied", "true");
+          button.setAttribute("title", "Copied");
+          window.setTimeout(function () {
+            button.removeAttribute("data-copied");
+            button.setAttribute("title", "Copy");
+          }, 1400);
+        });
+      });
+    });
+  </script>
 </body>
 </html>
