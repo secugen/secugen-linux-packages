@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SecuGen Linux Packages</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f9fb;
+      --panel: #ffffff;
+      --ink: #18212f;
+      --muted: #5d6878;
+      --border: #d9e1ea;
+      --accent: #006f8f;
+      --accent-dark: #084f64;
+      --code-bg: #101820;
+      --code-ink: #f5f8fb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .mark {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 18px;
+    }
+
+    dl {
+      display: grid;
+      grid-template-columns: minmax(140px, 220px) 1fr;
+      gap: 8px 16px;
+      margin: 0;
+    }
+
+    dt {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    dd {
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+
+    pre {
+      margin: 12px 0 0;
+      padding: 16px;
+      overflow-x: auto;
+      border-radius: 8px;
+      background: var(--code-bg);
+      color: var(--code-ink);
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.95em;
+    }
+
+    a {
+      color: var(--accent-dark);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--accent-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      border-color: var(--accent);
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: min(100% - 24px, 960px);
+        padding-top: 28px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      dl {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">
+        <div class="mark" aria-hidden="true">SG</div>
+        <div>
+          <h1>SecuGen Linux Packages</h1>
+          <p>Public APT repository for SecuGen Linux package distribution.</p>
+        </div>
+      </div>
+    </header>
+
+    <section aria-labelledby="install">
+      <h2 id="install">Install On Debian Or Ubuntu</h2>
+      <pre><code>curl -fsSL https://secugen.github.io/secugen-linux-packages/gpg.key \
+  | sudo gpg --dearmor -o /usr/share/keyrings/secugen-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/secugen-archive-keyring.gpg] https://secugen.github.io/secugen-linux-packages/apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/secugen.list
+
+sudo apt update
+sudo apt install secugen-connect</code></pre>
+    </section>
+
+    <section aria-labelledby="current-package">
+      <h2 id="current-package">Current Package</h2>
+      <dl>
+        <dt>Package</dt>
+        <dd><code>secugen-connect</code></dd>
+        <dt>Version</dt>
+        <dd><code>0.4.307</code></dd>
+        <dt>Architecture</dt>
+        <dd><code>amd64</code></dd>
+        <dt>Channel</dt>
+        <dd><code>stable main</code></dd>
+        <dt>Repository</dt>
+        <dd><code>https://secugen.github.io/secugen-linux-packages/apt</code></dd>
+      </dl>
+      <div class="links" aria-label="Repository links">
+        <a href="gpg.key">Public Key</a>
+        <a href="apt/dists/stable/InRelease">InRelease</a>
+        <a href="apt/dists/stable/main/binary-amd64/Packages">Packages</a>
+        <a href="apt/pool/main/s/secugen-connect/secugen-connect_0.4.307_amd64.deb">Download DEB</a>
+      </div>
+    </section>
+
+    <section aria-labelledby="trust">
+      <h2 id="trust">Repository Trust</h2>
+      <dl>
+        <dt>Signing identity</dt>
+        <dd><code>SecuGen Connect Packages &lt;packages@secugen.com&gt;</code></dd>
+        <dt>Fingerprint</dt>
+        <dd><code>1061 A9DE 6A4D 1952 927E 905C C2B3 6AFA A846 F669</code></dd>
+        <dt>Public key</dt>
+        <dd><code>gpg.key</code></dd>
+      </dl>
+    </section>
+  </main>
+</body>
+</html>
