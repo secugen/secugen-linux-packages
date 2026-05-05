@@ -1,0 +1,19 @@
+{
+  "schema": "secugen-linux-repo-bootstrap-publication/v1",
+  "packageName": "secugen-linux-repo",
+  "packageVersion": "1.0.0",
+  "packageType": "deb",
+  "architecture": "all",
+  "publicationPath": "secugen-linux-repo.deb",
+  "publicUrl": "https://secugen.github.io/secugen-linux-packages/secugen-linux-repo.deb",
+  "sha256Url": "https://secugen.github.io/secugen-linux-packages/secugen-linux-repo.deb.sha256",
+  "packageSha256": "06bffff9b45d8c4b377f1647d47deb93c95e0bc76ddba9b9abb50dcbbf2f8f14",
+  "packageSizeBytes": 1444,
+  "installedKeyringPath": "/usr/share/keyrings/secugen-archive-keyring.gpg",
+  "installedSourceListPath": "/etc/apt/sources.list.d/secugen.list",
+  "installedSourceListLine": "deb [signed-by=/usr/share/keyrings/secugen-archive-keyring.gpg] https://secugen.github.io/secugen-linux-packages/apt stable main",
+  "publicKeyPath": "gpg.key",
+  "publicKeySha256": "a89aadc5d8a02d1145e5d82f292670627c613c0802d51a1b38ff4b29b7f1aac8",
+  "installedKeyringSha256": "2d4799fd3b39c192ccedaf4ebc01f9fbfc4900c3c9f2c83307679aca7bdfa545",
+  "aptRepositoryUrl": "https://secugen.github.io/secugen-linux-packages/apt"
+}

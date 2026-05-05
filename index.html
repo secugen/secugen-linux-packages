@@ -178,12 +178,8 @@
 
     <section aria-labelledby="install">
       <h2 id="install">Install On Debian Or Ubuntu</h2>
-      <pre><code>curl -fsSL https://secugen.github.io/secugen-linux-packages/gpg.key \
-  | sudo gpg --dearmor -o /usr/share/keyrings/secugen-archive-keyring.gpg
-
-echo "deb [signed-by=/usr/share/keyrings/secugen-archive-keyring.gpg] https://secugen.github.io/secugen-linux-packages/apt stable main" \
-  | sudo tee /etc/apt/sources.list.d/secugen.list
-
+      <pre><code>curl -LO https://secugen.github.io/secugen-linux-packages/secugen-linux-repo.deb
+sudo apt install ./secugen-linux-repo.deb
 sudo apt update
 sudo apt install secugen-connect</code></pre>
     </section>
@@ -203,6 +199,8 @@ sudo apt install secugen-connect</code></pre>
         <dd><code>https://secugen.github.io/secugen-linux-packages/apt</code></dd>
       </dl>
       <div class="links" aria-label="Repository links">
+        <a href="secugen-linux-repo.deb">Repo Setup DEB</a>
+        <a href="secugen-linux-repo.deb.sha256">Setup SHA256</a>
         <a href="gpg.key">Public Key</a>
         <a href="apt/dists/stable/InRelease">InRelease</a>
         <a href="apt/dists/stable/main/binary-amd64/Packages">Packages</a>

@@ -20,15 +20,18 @@ APT path: apt/dists/stable
 Package path: apt/pool/main/s/secugen-connect/secugen-connect_0.4.307_amd64.deb
 ```
 
-Install shape for Debian/Ubuntu clients:
+First-time setup for Debian/Ubuntu clients:
 
 ```bash
-curl -fsSL https://secugen.github.io/secugen-linux-packages/gpg.key \
-  | sudo gpg --dearmor -o /usr/share/keyrings/secugen-archive-keyring.gpg
+curl -LO https://secugen.github.io/secugen-linux-packages/secugen-linux-repo.deb
+sudo apt install ./secugen-linux-repo.deb
+sudo apt update
+sudo apt install secugen-connect
+```
 
-echo "deb [signed-by=/usr/share/keyrings/secugen-archive-keyring.gpg] https://secugen.github.io/secugen-linux-packages/apt stable main" \
-  | sudo tee /etc/apt/sources.list.d/secugen.list
+After the setup package is installed, normal package updates use:
 
+```bash
 sudo apt update
 sudo apt install secugen-connect
 ```
@@ -39,4 +42,11 @@ Useful verification:
 apt-cache policy secugen-connect
 ```
 
-The private GPG signing key must not be committed here. Only the public key at `gpg.key`, signed APT metadata, package indexes, package files, and receipts belong in this repository.
+The setup package installs:
+
+```text
+/usr/share/keyrings/secugen-archive-keyring.gpg
+/etc/apt/sources.list.d/secugen.list
+```
+
+The private GPG signing key must not be committed here. Only the public key at `gpg.key`, signed APT metadata, package indexes, package files, setup package files, and receipts belong in this repository.
