@@ -1,0 +1,21 @@
+# Keep the package publication repository limited to public artifacts.
+# The public APT key is intentionally tracked as gpg.key.
+
+private/
+secrets/
+.secrets/
+backup/
+.gnupg/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.kbx
+*.rev
+*.sec
+*.secret
+*.private
+*private-key*
+*secret-key*
+
+!gpg.key
