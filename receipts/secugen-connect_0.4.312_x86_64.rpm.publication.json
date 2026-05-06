@@ -1,0 +1,20 @@
+{
+  "package": "secugen-connect",
+  "version": "0.4.312",
+  "architecture": "x86_64",
+  "format": "rpm",
+  "channel": "stable",
+  "repoPath": "rpm/stable/x86_64",
+  "packagePath": "rpm/stable/x86_64/secugen-connect-0.4.312.x86_64.rpm",
+  "packageSha256": "687dfa770c6f9df125a3aeeec0b3a53a9acb42a31dd89483f5d30c1428fc1b4c",
+  "repomdPath": "rpm/stable/x86_64/repodata/repomd.xml",
+  "repomdSha256": "de6fe1c395544dfd67dfd5d88ebcadd7cbef608f04cce78ad2ef8ab7f83081f0",
+  "repomdSignaturePath": "rpm/stable/x86_64/repodata/repomd.xml.asc",
+  "repomdSignatureSha256": "22d48b8f55c7515fc5f52dcdc62ac3b3d4b8b33023ad8aafac022d836b6c93f3",
+  "repoFilePath": "secugen.repo",
+  "repoUrl": "https://secugen.github.io/secugen-linux-packages/rpm/stable/x86_64",
+  "repoFileUrl": "https://secugen.github.io/secugen-linux-packages/secugen.repo",
+  "signingIdentity": "SecuGen Connect Packages <packages@secugen.com>",
+  "signingKeyFingerprint": "1061A9DE6A4D1952927E905CC2B36AFAA846F669",
+  "publishedAt": "2026-05-06T03:46:57Z"
+}
