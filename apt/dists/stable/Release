@@ -1,24 +1,24 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Tue, 05 May 2026 17:02:49 +0000
-Description: SecuGen Linux packages
-Label: SecuGen
+Date: Wed, 06 May 2026 00:34:40 +0000
+Description: SecuGen Linux package repository
+Label: SecuGen Linux Packages
 Origin: SecuGen
 Suite: stable
 MD5Sum:
- b7376e529ab40edd991981ca8a420f04              174 Release
- 9bf9f95ac0e3ceaacf297c24ec81a3e4              769 main/binary-amd64/Packages
- 393eedd3a2d08d81712221544bbc09f1              524 main/binary-amd64/Packages.gz
+ 676c762a42e7280648d5a7043908a9e1              199 Release
+ 34bbc98ea2756317ebcdcbdc49c54ece              773 main/binary-amd64/Packages
+ 50c55c8e93339953dd5aa72a7f0b1b6f              526 main/binary-amd64/Packages.gz
 SHA1:
- 2ca12484fef32550d18ac1c182354737f60863b7              174 Release
- ed197b5bc77c8d50692aa1276849af75d37b90b9              769 main/binary-amd64/Packages
- 59c3782dc0271fb2f3e7319ff5cf988d9093f11a              524 main/binary-amd64/Packages.gz
+ 7fbbe95334cee751f928994cf444990f02eb61a0              199 Release
+ aa57a97e1ca0b5b94bc9e9a7d8e01ab3887c8a2c              773 main/binary-amd64/Packages
+ 803cdcf5e9da53b60afeaa3c59caa02abb86804e              526 main/binary-amd64/Packages.gz
 SHA256:
- 77c57c6f9a01b6fa67845bf7bc2c7dffabd8b2a706501043ef0d0343edc9e97b              174 Release
- 2e6e11cf245cbd26df95b689a5f09c97ca93c93a5c2a00dbec156b0569e6141a              769 main/binary-amd64/Packages
- cb63e17e17e118c13e96abbd698aabbd33b12df67c2e09623c89eae8dc60f761              524 main/binary-amd64/Packages.gz
+ b35f22112cc8eebaa1ff33843f3426375399aa0a2350d5e2ac9f2b3abd23c2b1              199 Release
+ cead59dc42fc63c0f00686712e7fe7b666f7e166960972752be32f676f41d30e              773 main/binary-amd64/Packages
+ cf171b8016669b1bf281775b96762394b35bb1fa0102f143973351d3a0a1d8c8              526 main/binary-amd64/Packages.gz
 SHA512:
- 9acd6898a584ebcf70506311f1d2130921a3a543ce06e7fc5fd97dbf1c557aa0202ca868635d7b54d70dd046905687f224a3892a8bd9afae9fd9aba7fcdc9898              174 Release
- 74c11864886fdd9de189b8e3d9efc4e531d698a75abd0bdce1af5bf3c49678d14cb273b9221db1df873e2811e0ae80c9321e496d67e407ffed333bf8ec1ad6a4              769 main/binary-amd64/Packages
- fbe92e8a12834a74bc9a07376a5998605b7abd9ad29eb05266a6b3ee2fb2083eee305274d267035a04aa11304595e89768f0f1b24245cb5673e5a85a128e5d54              524 main/binary-amd64/Packages.gz
+ 967e999abc110f048e9acdebac98ac64ec7d544d35e65c8109c60d359b197169f2ab9e33f1bf9f708e31c17b826f5dd3f5f2d8a39aae5308a3e10eee8d15e989              199 Release
+ 1d2b8eb9ce09700b51afeca4575e5367ac4ff5f7f9b1cba31634c59c1b60cb0d4a9e70d0e83e7f59fe4164bc2ff98093a5fbab07edc6c352f7b41a35a2b0cf78              773 main/binary-amd64/Packages
+ 3f94d9485ce64e1e6985f87291af47ef29cfe7c97f2063f28dfc2eb167543d57f0371b6ea48661ec1f8e09fcd49e3b04b0dcbdadf145bd04c8f47d4d6aa8c2f1              526 main/binary-amd64/Packages.gz
