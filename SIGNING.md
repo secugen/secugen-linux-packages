@@ -23,7 +23,7 @@ apt/dists/stable/InRelease
 Signed files for the current stable RPM repo:
 
 ```text
-rpm/stable/x86_64/secugen-connect-0.4.312.x86_64.rpm
+rpm/stable/x86_64/secugen-connect-0.4.314.x86_64.rpm
 rpm/stable/x86_64/repodata/repomd.xml
 rpm/stable/x86_64/repodata/repomd.xml.asc
 ```

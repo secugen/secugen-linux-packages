@@ -271,8 +271,8 @@ sudo apt install secugen-connect</code></pre>
           <li>Use Debian or Ubuntu on <code>amd64</code>.</li>
           <li><code>curl</code> is needed to download the setup package.</li>
           <li><code>ca-certificates</code> is installed by the setup package if needed.</li>
-          <li><code>libusb-1.0-0</code> is installed automatically with <code>secugen-connect</code>.</li>
-          <li>The package installs udev rules and the system service. Reconnect the reader or reboot if a USB reader was already attached during installation.</li>
+          <li><code>libusb-0.1-4</code> and <code>libusb-1.0-0</code> are installed automatically with <code>secugen-connect</code>.</li>
+          <li>The package installs udev rules and the system service. Reconnect the reader or restart the service if a USB reader was already attached and does not become ready after installation.</li>
         </ul>
       </div>
     </section>
@@ -315,8 +315,8 @@ sudo dnf upgrade secugen-connect</code></pre>
         <ul>
           <li>Use Fedora on <code>x86_64</code>.</li>
           <li><code>curl</code> is needed to install the repo file.</li>
-          <li><code>libusb1</code> is installed automatically with <code>secugen-connect</code>.</li>
-          <li>The package installs udev rules and the system service. Reconnect the reader or reboot if a USB reader was already attached during installation.</li>
+          <li><code>libusb1</code> and <code>libusb-compat-0.1</code> are installed automatically with <code>secugen-connect</code>.</li>
+          <li>The package installs udev rules and the system service. Reconnect the reader or restart the service if a USB reader was already attached and does not become ready after installation.</li>
           <li>No separate Linux device-driver package is required.</li>
         </ul>
       </div>
@@ -328,7 +328,7 @@ sudo dnf upgrade secugen-connect</code></pre>
         <dt>Package</dt>
         <dd><code>secugen-connect</code></dd>
         <dt>Version</dt>
-        <dd><code>0.4.312</code></dd>
+        <dd><code>0.4.314</code></dd>
         <dt>Architecture</dt>
         <dd><code>amd64 / x86_64</code></dd>
         <dt>Channel</dt>
@@ -344,10 +344,10 @@ sudo dnf upgrade secugen-connect</code></pre>
         <a href="gpg.key">Public Key</a>
         <a href="apt/dists/stable/InRelease">InRelease</a>
         <a href="apt/dists/stable/main/binary-amd64/Packages">Packages</a>
-        <a href="apt/pool/main/s/secugen-connect/secugen-connect_0.4.312_amd64.deb">Download DEB</a>
+        <a href="apt/pool/main/s/secugen-connect/secugen-connect_0.4.314_amd64.deb">Download DEB</a>
         <a href="secugen.repo">Fedora Repo File</a>
         <a href="rpm/stable/x86_64/repodata/repomd.xml">RPM Repomd</a>
-        <a href="rpm/stable/x86_64/secugen-connect-0.4.312.x86_64.rpm">Download RPM</a>
+        <a href="rpm/stable/x86_64/secugen-connect-0.4.314.x86_64.rpm">Download RPM</a>
       </div>
     </section>
 
