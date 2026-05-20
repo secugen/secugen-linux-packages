@@ -4,31 +4,31 @@ Hash: SHA512
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Wed, 06 May 2026 23:19:19 +0000
+Date: Wed, 20 May 2026 03:31:36 +0000
 Description: SecuGen Linux package repository
 Label: SecuGen Linux Packages
 Origin: SecuGen
 Suite: stable
 MD5Sum:
- f09749a75174335edec713b7fc29a429              199 Release
- 0404e4a6312a9846382fbf403f0676db              804 main/binary-amd64/Packages
- 0c950f673e420fcc0c7025b728ab7f3e              528 main/binary-amd64/Packages.gz
+ 7ebe7a4e3a333557f98c886f59811519              199 Release
+ d3b66a275f69caf32438d84ea3f6d531              804 main/binary-amd64/Packages
+ 47b53edbeb710740414cb3f63b0ffbfa              541 main/binary-amd64/Packages.gz
 SHA1:
- 91354f860065bb42b37ef020865ccac6e287dd1e              199 Release
- 9bae27ba3840f82c35013a6d73432bb431bc74bd              804 main/binary-amd64/Packages
- 77def1e7f31cc652d9dc8cac782e45cef9c316bc              528 main/binary-amd64/Packages.gz
+ 7aa821661df81e6bf59c0b2f0299ad2dc75d1d3c              199 Release
+ 11c899d18406f455475dd867822880be464bf19c              804 main/binary-amd64/Packages
+ 2abd06414d1fe1fabe297e1388f7aab1f2dc83a4              541 main/binary-amd64/Packages.gz
 SHA256:
- 48edb5362dc0c1cce64abe3add3b6ac7055e905df422e89aeac3f19a76ea4b15              199 Release
- 7e23b088c56e0378d2a54878666c9a845c00011c4e70ff8f3cdb1813a18876e5              804 main/binary-amd64/Packages
- a0a267e653add553c6851c0a3c6d8ed74266f288b7a0e10dde4bee96c766e5b9              528 main/binary-amd64/Packages.gz
+ 4c559fbf210b2a3bb40fcd66ff9709960ae4a000b7380f6c1cc6c353f1435845              199 Release
+ f664021df5fcac53e950d99b0967bc546fd583e0c4648b4fd8836c928735be59              804 main/binary-amd64/Packages
+ bd91e63ad0427c2847923d135e686815e0f0c8e65ac668a9cf7bf28af58ba128              541 main/binary-amd64/Packages.gz
 SHA512:
- 4595b4494eb5f34f6dfe5d280e439b70c096ce33fd6e4ffa46cc6cefc14c4a2fbff01412b948553861c51a30ffa66476a617fc43eebacc87f4e93b853f6eeea1              199 Release
- 61a0059fce228e245b7eeb30c6984c0125fa0f7fd3cff97d55f1359d1b7bb856a5deebc2f487de1f75f8f9541e95815f441e6e052619be0c5298d4f4a0059261              804 main/binary-amd64/Packages
- 2155aedc04f532c6bbb8757fcf8afb4e01e2f87dc10c1dc9d530b107a24c2e89c4407e57491cd1ba1c8beac65440e98157ef894dc787bab29269dd302d444232              528 main/binary-amd64/Packages.gz
+ 9c3195aad8e48e933373ee416bb1a5cd1b392d6633bfa473e84d0fffe7826aa2dd0cb6ad3fe00b2d288d4a8253655d4a0c7408cca71624016a7c5d440b51ccdc              199 Release
+ f5bbd2d471001f02d9ff600242ee0abd3151188aad2acedd8c289f1c47fa3af2610769d539086ecfb0ef383aaccfb912fa8889e1d971a651ea5d50d81e6f06f0              804 main/binary-amd64/Packages
+ 8cde22e03d203547ae84bd7517d65abe2ba1a724d584f41bc6657409c2aac85bceabca5464ed334534988874d9ab6fed8d72efaf7ff61c452a3a63137a4f5bed              541 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQQYaneak0ZUpJ+kFzCs2r6qEb2aQUCafvMdwAKCRDCs2r6qEb2
-abLCAPwM8vAbAJboJaujlmPVLQp/YSI0H/6B6m3Mn6LlR/GvyAD+LVpjIlH6bLmc
-DrO3ZnYEhzf56hezB16pmnAYFzh5bgk=
-=uhjC
+iHUEARYKAB0WIQQQYaneak0ZUpJ+kFzCs2r6qEb2aQUCag0rGAAKCRDCs2r6qEb2
+aTc3AQDqKZb0KLKYbAvLPLvuctAsMTaLHs9ANc24u8OMMlVXRQEApjxoHWwfBQbp
+eNSwnNOmsqTqLa1UhlSj3HpIIKWRfws=
+=cikq
 -----END PGP SIGNATURE-----
