@@ -1,13 +1,13 @@
 Package: secugen-connect
-Version: 0.4.467
+Version: 0.4.468
 Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libstdc++6, libusb-0.1-4, libusb-1.0-0, libuvc0
-Filename: pool/main/s/secugen-connect/secugen-connect_0.4.467_amd64.deb
-Size: 8915362
-MD5sum: a6369b258e456748ef8d228361fbe648
-SHA1: 4fb2b8b41c5571f74332a29ccd40669d3e5396d1
-SHA256: 23b61bbc5ebcc0646a1fb2dad3925fff1da0dc3ab7732e8a18583eca34ba24b3
+Filename: pool/main/s/secugen-connect/secugen-connect_0.4.468_amd64.deb
+Size: 8915380
+MD5sum: a32fc287cdd844a9788453d6d84ffc6c
+SHA1: c5a1b72ccdd9dc747e402c57a6a67b66a7f1771f
+SHA256: 3e72baf394e6b8e070cb681b70783a668d628beeab6fd246824e93edd48143e3
 Section: misc
 Priority: optional
 Homepage: https://connect.secugen.com
