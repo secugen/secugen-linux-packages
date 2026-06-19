@@ -1,8 +1,6 @@
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.307
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libusb-1.0-0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.307_amd64.deb
@@ -10,7 +8,8 @@ Size: 8589796
 MD5sum: 7fb3c366e36338216db394fe6be78d77
 SHA1: ae817a462a8247ce79d85adc83d9b08fe92c1704
 SHA256: e4154208d16cdeec88a1d420164d4bbcc3503ed1d194064b2c5998379f21e716
-SHA512: f24588ff52efbce1989661fabde2f466081299c14990132a5bd7b31af0d5fb924ab3e90b9efb584ee87fbb9e2ec8cb98c30610ae2f8d5e4486a2a3b73c3f499e
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -19,10 +18,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.309
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libusb-1.0-0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.309_amd64.deb
@@ -30,7 +27,8 @@ Size: 8593572
 MD5sum: be171dcd3b4e5fda815f79af1e776357
 SHA1: 02e0007623f5693dc28643f98190de24f846e661
 SHA256: c997f63eb5ff25cb3fd13c0d171ed22963a519c2326f9e4057ca1ec1cadb1c01
-SHA512: 1422a036c3873bb67aade75858364bd6eeab19df90b6faca811bde8d7f0171952c35fa27fef275548b850ae09596cd8d646dab10ffec7cd480b6efc8e83d4be3
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -39,10 +37,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.310
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libusb-1.0-0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.310_amd64.deb
@@ -50,7 +46,8 @@ Size: 8601138
 MD5sum: 5383719a25a737b969be7533139b4006
 SHA1: 3f480de8a0a6a88acb7328b5cf364c4493abaf89
 SHA256: 066c6207e37cf3de27a1ae54f0006cbd4ab97d5cb7b472e905b397476dd33b23
-SHA512: d0daca02e7b6d7ad03d499194fe14b4fd39ac2ce46b2cbb8d6c64b171f915b90fc62b01fe747b25711d9337659b736c1a904a5335236f21600fe957160742dcb
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -59,10 +56,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.311
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libusb-1.0-0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.311_amd64.deb
@@ -70,7 +65,8 @@ Size: 8608516
 MD5sum: 204f4329cbc059e4785561743d6d0d18
 SHA1: 8da48c4d399466292588b3a1a682da5ec5647290
 SHA256: 3012d381b09302b3ed434d9b638c840cbfefa1b09186ddc013071120ae4219d4
-SHA512: 5109b8f190da2f43d8b8c537f90326931411589efe95b42c4675ef60ee57884f1fe6236175df76689277cfe69b36f1a0895eeced2325d20bd8637a3812db88a9
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -79,10 +75,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.312
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libusb-1.0-0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.312_amd64.deb
@@ -90,7 +84,8 @@ Size: 8607952
 MD5sum: e3cab702e5aba249a3fbf510ef39451f
 SHA1: e8d2bbd556db06bc543b4d8485f9038844f8c33a
 SHA256: 6cc1322e78edc3ba66a3f5686b53640cb5ab20ecd5810ea8002e2275f2ffcad5
-SHA512: bf56a12a0977857b311eb17244c55a319ed28ede4006228cfc992d30a69739aee7985e058d083a17c70f3080f6c13ba72c306226c6556d3c6daa3d3f61f00207
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -99,10 +94,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.314
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libusb-0.1-4, libusb-1.0-0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.314_amd64.deb
@@ -110,7 +103,8 @@ Size: 8748206
 MD5sum: 2aa20c111d55591e210d96708e5a11ae
 SHA1: c7008e814882bdc243e4761caac5f4e297fad1d9
 SHA256: 8754ff11fe0c75305ea825a7895bf89ff9b5536b186ba503188807944a3ffecf
-SHA512: 11c584c8a5f10800ca38804bdd0dd6013b34f8d634cd3b5a631bdac45a1dd9ea3923ac4a47fdc846f62e125c9147ddf6c344da0e12ed5378222202dfdae74466
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -119,10 +113,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.318
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libstdc++6, libusb-0.1-4, libusb-1.0-0, libuvc0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.318_amd64.deb
@@ -130,7 +122,8 @@ Size: 8754114
 MD5sum: 0a1ef2a9ac15416536d0e1bb707bc081
 SHA1: 8bd37389aadf05cebf4f50ebe768fb54118aa11b
 SHA256: 7cd9748f66c1857c33d16413ae5a53b1244659de13c994515d834fe6d3da192a
-SHA512: 08f6e62aa2a0dfe17eda71ed856a2935919ed6c3e3a0e839995d354e4f0e3de78cc26c8a66b7c2e15d5671e44ad97cb351467e88d1552ed77df22c9643042b25
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -139,10 +132,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.467
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libstdc++6, libusb-0.1-4, libusb-1.0-0, libuvc0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.467_amd64.deb
@@ -150,7 +141,8 @@ Size: 8915362
 MD5sum: a6369b258e456748ef8d228361fbe648
 SHA1: 4fb2b8b41c5571f74332a29ccd40669d3e5396d1
 SHA256: 23b61bbc5ebcc0646a1fb2dad3925fff1da0dc3ab7732e8a18583eca34ba24b3
-SHA512: 8b60a65015bb0966fcfd3ecac51cc8ba92bd119935a07d4f524be141f046519fe9ed0e268424961ae162a560911516067d2fc0b4c0e26691d8054b9cb6eb018d
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -159,10 +151,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.468
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libstdc++6, libusb-0.1-4, libusb-1.0-0, libuvc0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.468_amd64.deb
@@ -170,7 +160,8 @@ Size: 8915380
 MD5sum: a32fc287cdd844a9788453d6d84ffc6c
 SHA1: c5a1b72ccdd9dc747e402c57a6a67b66a7f1771f
 SHA256: 3e72baf394e6b8e070cb681b70783a668d628beeab6fd246824e93edd48143e3
-SHA512: 342ac1c7ba1d59fa09183e9ca193c231abe8575843a8f8da0f3dc60d7dbb3b4c4c4bd4dee87cde5154c4380c75455f32678a529b8ddb5bc3e0af9056922eb9f3
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -179,10 +170,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.469
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libstdc++6, libusb-0.1-4, libusb-1.0-0, libuvc0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.469_amd64.deb
@@ -190,7 +179,8 @@ Size: 8910724
 MD5sum: 473c94d002998fdc29f7f023e2984ec5
 SHA1: 36ff38a30965421a97fe89903a3f563e3ac27444
 SHA256: f6ddc3252f95979ed3a6b15709ab1af35cedcadc9b25aad6cc3bda8227860304
-SHA512: 65adf5259e56452c005dab2ed4ea6145394b9b948a7e24fa237203cf8863feac8626c2591b5cb7734c9ec35082079dfcb33dcf2d58f4dfd0016a6bd09419342a
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -199,10 +189,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.470
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libstdc++6, libusb-0.1-4, libusb-1.0-0, libuvc0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.470_amd64.deb
@@ -210,7 +198,8 @@ Size: 8923324
 MD5sum: 6d93974e8bf5dc730966c74072234eb9
 SHA1: 69baaf3c8301463378c0ffa9441cc23914617a6c
 SHA256: 54bc8491ef93347e48d7eec0330f1b128a90e7e7d7e45c3a52bbd1cf3b58a21c
-SHA512: af964ce14c3930864fdc7ebba60b60b5114d5506951be2eb39ec2e6d54563f882c287aab9ba55a17bfb805aa222941535f2fdc5acf8ff5c6fbed430a4f74dc07
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
@@ -219,10 +208,8 @@ Description: SecuGen Connect Local Bridge
  a loopback-only REST API for browser and application integration.
 
 Package: secugen-connect
-Architecture: amd64
 Version: 0.4.817
-Priority: optional
-Section: misc
+Architecture: amd64
 Maintainer: SecuGen Corporation <support@secugen.com>
 Depends: libc6 (>= 2.17), libstdc++6, libusb-1.0-0
 Filename: pool/main/s/secugen-connect/secugen-connect_0.4.817_amd64.deb
@@ -230,7 +217,27 @@ Size: 11544548
 MD5sum: 524f7f1e0348381ed858ad8d9b0550ce
 SHA1: 47ee3ace9b8f6d4cb15b9c353dbf9e2b1194460a
 SHA256: 988705df38f5cb97bdeb2c343105628f2fc5c0cff929bcc211e610a8698a725d
-SHA512: 2565eb648463dfe0dd8006abfc0097da4ac2b2c9be2c430f52a7b712af37f28f52d3f17ee9b57a9f854407753afc1063805913ef121b9aa29fee0fb6a560ddf9
+Section: misc
+Priority: optional
+Homepage: https://connect.secugen.com
+Description: SecuGen Connect Local Bridge
+ SecuGen Connect provides a local HTTP bridge for fingerprint
+ capture, matching, and licensing operations with SecuGen USB
+ fingerprint readers. It runs as a system service and exposes
+ a loopback-only REST API for browser and application integration.
+
+Package: secugen-connect
+Version: 0.4.818
+Architecture: amd64
+Maintainer: SecuGen Corporation <support@secugen.com>
+Depends: libc6 (>= 2.17), libstdc++6, libusb-1.0-0
+Filename: pool/main/s/secugen-connect/secugen-connect_0.4.818_amd64.deb
+Size: 11542664
+MD5sum: 51646acc0463e4680ab3011879d8db77
+SHA1: fa04d36fb68c507146321185a992d07839275c38
+SHA256: c875b0e7dc90a48f1e6681006cc1916a72f3b2776c37841b34c5b57f993d486d
+Section: misc
+Priority: optional
 Homepage: https://connect.secugen.com
 Description: SecuGen Connect Local Bridge
  SecuGen Connect provides a local HTTP bridge for fingerprint
