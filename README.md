@@ -14,12 +14,12 @@ Current staged package:
 
 ```text
 Package: secugen-connect
-Version: 0.4.470
+Version: 0.4.817
 Architecture: amd64
 Channel: stable
 APT path: apt/dists/stable
-Package path: apt/pool/main/s/secugen-connect/secugen-connect_0.4.470_amd64.deb
-RPM path: rpm/stable/x86_64/secugen-connect-0.4.470.x86_64.rpm
+Package path: apt/pool/main/s/secugen-connect/secugen-connect_0.4.817_amd64.deb
+RPM path: rpm/stable/x86_64/secugen-connect-0.4.817.x86_64.rpm
 ```
 
 First-time setup for Debian/Ubuntu clients:
