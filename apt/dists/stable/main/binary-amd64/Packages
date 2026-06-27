@@ -245,3 +245,22 @@ Description: SecuGen Connect Local Bridge
  fingerprint readers. It runs as a system service and exposes
  a loopback-only REST API for browser and application integration.
 
+Package: secugen-connect
+Version: 0.4.847
+Architecture: amd64
+Maintainer: SecuGen Corporation <support@secugen.com>
+Depends: libc6 (>= 2.17), libstdc++6, libusb-1.0-0
+Filename: pool/main/s/secugen-connect/secugen-connect_0.4.847_amd64.deb
+Size: 11733956
+MD5sum: ba0ca7fa336bbac57b67ef9200d6ea84
+SHA1: fbe73d436bea4536de3fdfca6914d65ed23a28f0
+SHA256: ebf165e2ae6b85685bb166bbf00f2a224477f7cefdf0882fc51eeba99e42f54a
+Section: misc
+Priority: optional
+Homepage: https://connect.secugen.com
+Description: SecuGen Connect Local Bridge
+ SecuGen Connect provides a local HTTP bridge for fingerprint
+ capture, matching, and licensing operations with SecuGen USB
+ fingerprint readers. It runs as a system service and exposes
+ a loopback-only REST API for browser and application integration.
+
